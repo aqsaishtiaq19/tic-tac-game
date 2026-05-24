@@ -93,9 +93,9 @@ let checkWinner = () => {
         }
     }
 
-    // Check draw — all 9 moves played, no winner
+    
     if (!winnerFound && moveCount === 9) {
-        showDraw(); // ← show draw message
+        showDraw();
     }
 };
 
@@ -103,3 +103,5 @@ msgContainer.classList.add("hide");
 newGameBtn.addEventListener("click", newGame);
 resetGameBtn.addEventListener("click", resetGame);
 newGameBtn.style.display = "none";
+
+msg.innerText = "";

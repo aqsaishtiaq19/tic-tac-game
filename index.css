@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
 }
 
-/* ===== ANIMATED BACKGROUND STARS ===== */
+/*  ANIMATED BACKGROUND STARS  */
 body::before {
     content: '';
     position: fixed;
@@ -42,7 +42,7 @@ body::before {
     100% { opacity: 1; }
 }
 
-/* ===== TITLE ===== */
+/*  TITLE  */
 h1 {
     font-size: 3rem;
     font-weight: 800;
@@ -63,7 +63,7 @@ h1 {
     to   { filter: drop-shadow(0 0 20px rgba(191,90,242,0.9)); }
 }
 
-/* ===== CONTAINER — BIGGER ===== */
+/*  CONTAINER — BIGGER  */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +78,7 @@ h1 {
     z-index: 1;
 }
 
-/* ===== GAME BOARD — BIGGER ===== */
+/*  GAME BOARD — BIGGER  */
 .game {
     height: 75vmin;
     width: 75vmin;
@@ -97,7 +97,7 @@ h1 {
                 inset 0 0 40px rgba(191,90,242,0.05);
 }
 
-/* ===== BOXES — BIGGER ===== */
+/*  BOXES — BIGGER  */
 .box {
     font-size: 5vmin;
     font-weight: 800;
@@ -159,7 +159,7 @@ h1 {
     text-shadow: 0 0 10px rgba(126,232,250,0.8);
 }
 
-/* ===== BUTTONS ===== */
+/*  BUTTONS  */
 .new-game, .reset-game {
     font-size: 1rem;
     font-weight: 600;
@@ -200,7 +200,7 @@ h1 {
     transform: scale(0.95);
 }
 
-/* ===== MESSAGE CONTAINER ===== */
+/*  MESSAGE CONTAINER  */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Poppins:wght@400;600;700;800&display=swap');
 
 .msg-container {
@@ -232,7 +232,7 @@ h1 {
 
 
 
-/* ===== WIN MESSAGE ===== */
+/*  WIN MESSAGE  */
 .msg {
     background: linear-gradient(135deg,
         rgba(123, 47, 255, 0.3),
@@ -259,7 +259,7 @@ h1 {
     animation: winPulse 1s infinite alternate;
 }
 
-/* ===== SCORE BOARD ===== */
+/*  SCORE BOARD  */
 .score-board {
     display: flex;
     gap: 30px;
@@ -291,7 +291,7 @@ h1 {
 
 .hide { display: none; }
 
-/* ===== MEDIA QUERIES ===== */
+/*  MEDIA QUERIES  */
 
 /* Tablet */
 @media (max-width: 768px) {
