@@ -39,7 +39,8 @@ A fun, fully playable two-player Tic Tac Toe game built with vanilla **HTML5, CS
 
 ## 📸 Preview
 
-*(Add a screenshot or GIF of the game here)*
+<img width="629" height="421" alt="image" src="https://github.com/user-attachments/assets/70e1de91-31ee-4617-a994-2e303b5b5b1c" />
+
 
 ## 📄 License
 
